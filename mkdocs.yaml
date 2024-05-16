@@ -1,8 +1,8 @@
 site_name: 'your documentation site name'
 site_description: 'a brief description'
 #uncomment the below lines if you want to enable the edit button in your techdocs
-#edit_uri: blob/main/docs/ #don't change it, just uncomment
-#repo_url: '<insert your repo url here>'
+edit_uri: blob/main/docs/ #don't change it, just uncomment
+repo_url: 'https://github.com/idealo/github-app-token-generator'
 theme:
   name: material
   palette:
