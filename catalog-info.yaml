@@ -9,7 +9,6 @@ metadata:
   annotations:
     github.com/project-slug: idealo/github-app-token-generator
     github.com/team-slug: idealo/compute
-    backstage.io/techdocs-ref: dir:.
   tags:
     - github-action
     - github-app
