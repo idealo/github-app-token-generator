@@ -16,4 +16,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: group:compute
+  owner: group:engineering-experience
