@@ -1,3 +1,4 @@
+# Deprecated. Please use: https://github.com/actions/create-github-app-token
 name: GitHub App installation access token generator
 description: Generate an installation access token for a GitHub App that can be for instance used to clone other repositories
 inputs:
