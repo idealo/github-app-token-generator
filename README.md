@@ -1,3 +1,24 @@
+# Deprecation Notice ⚠️
+**This repository is no longer maintained.**  
+We recommend switching to the official GitHub repository for the Create GitHub App Token action.  
+- Official Repository: https://github.com/actions/create-github-app-token  
+- Recommended Action: Update your GitHub workflows to use the official action.  
+
+Please update your workflow files to use the latest version of the official action to ensure you have the most up-to-date features, security patches, and support.
+### Migration Steps  
+1. Replace the current action reference with the official one
+2. Review the documentation in the official repository
+3. Test your workflows to ensure compatibility  
+
+Example Migration:
+```
+- uses: actions/create-github-app-token@v1
+  id: app-token
+  with:
+  app-id: ${{ vars.APP_ID }}
+  private-key: ${{ secrets.PRIVATE_KEY }}
+```
+
 # GitHub App installation access token generator
 
 GitHub Action that can be used to generate an installation access token for a GitHub App. This token can for instance be used to clone repos, given the GitHub App has sufficient permissions to do so.
