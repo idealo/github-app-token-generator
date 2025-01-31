@@ -17,6 +17,7 @@ Example Migration:
   with:
   app-id: ${{ vars.APP_ID }}
   private-key: ${{ secrets.PRIVATE_KEY }}
+  owner: ${{ github.repository_owner }}
 ```
 
 # GitHub App installation access token generator
